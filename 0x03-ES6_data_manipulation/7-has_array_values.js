@@ -5,6 +5,6 @@ i/**
  * @author kabagambe herbert <https://github.com/Khabert>
  * @returns {Boolean}
  */
-export default function hasValuesFromArray(set, array) {
-  return array.every((value) => set.has(value));
-}
+const hasValuesFromArray = (set, array) => array.every((value) => set.has(value));
+
+export default hasValuesFromArray;
